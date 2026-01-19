@@ -118,7 +118,7 @@ app.get("/api/check-status/:orderId", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 7860;
 app.listen(PORT, () => {
   console.log(`Midtrans API running at http://localhost:${PORT}`);
 });
